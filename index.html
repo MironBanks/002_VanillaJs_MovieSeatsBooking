@@ -5,11 +5,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Seat Booking</title>
 </head>
 
 <body>
+    <div class="movie-container">
+        <label>Pick a movie:</label>
+        <select id="movie">
+            <option value="100">Avengers: Endgame (NOK 100)</option>
+            <option value="120">Joker (NOK 120)</option>
+            <option value="80">Toy Story 4 (NOK 80)</option>
+            <option value="90">The Lion King (NOK 90)</option>
+        </select>
+    </div>
 
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>N/A</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Occupied</small>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+        </div>
+        <div class="row">
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+        </div>
+        <div class="row">
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats occupied"></div>
+            <div class="seats occupied"></div>
+            <div class="seats occupied"></div>
+            <div class="seats occupied"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+        </div>
+        <div class="row">
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats occupied"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats occupied"></div>
+            <div class="seats occupied"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+        </div>
+        <div class="row">
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats occupied"></div>
+            <div class="seats occupied"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats occupied"></div>
+            <div class="seats occupied"></div>
+        </div>
+        <div class="row">
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats occupied"></div>
+            <div class="seats occupied"></div>
+            <div class="seats occupied"></div>
+            <div class="seats occupied"></div>
+            <div class="seats"></div>
+        </div>
+    </div>
+
+    <p class="text">You have selected
+        <span id="count">0</span>
+        seats for a price of NOK
+        <span id="total">0</span></p>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
