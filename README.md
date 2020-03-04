@@ -11,3 +11,25 @@ Display movie choices and seats in a cinema to select from in order to purchase 
 - User can not select occupied seats
 - Number of seats and price will update
 - Save seats, movie and price to local storage so that UI is still populated on refresh
+
+## Step by step building process:
+
+### Step 1 - HTML STRUCTURE
+
+Just a lots of div's
+
+### Step 2 - CSS STYLE
+
+For most part its pretty basic SCSS, I chose for this project neomorphism design.
+
+```scss
+// to change shape of screen
+.container{
+        perspective: 1000px;
+}
+```
+
+
+<h2 align="center">
+  <img src="./assets/css.png" alt="css design" width="100%">
+</h2>
