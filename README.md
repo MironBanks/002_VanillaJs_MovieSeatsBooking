@@ -33,3 +33,15 @@ For most part its pretty basic SCSS, I chose for this project neomorphism design
 <h2 align="center">
   <img src="./assets/css.png" alt="css design" width="100%">
 </h2>
+
+### Step 3 - JavaScript
+
+Selecting Movie and seats from UI
+
+### Step 4 - JavaScript
+
+Save data to local storage
+
+### Step 5 - JavaScript
+
+Populate UI with saved data. I was able to save everything to local storage and then populate UI that gets called
